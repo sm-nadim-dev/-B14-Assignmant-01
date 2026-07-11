@@ -1,0 +1,67 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* common style */
+.common-btn {
+    padding: 10px 20px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.outline-btn {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid #1D4ED8;
+    cursor: pointer;
+}
+
+/* Nev  */
+.nev-Parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    margin-top: 23.5px;
+    margin-bottom: 24.5px;
+    margin-left: 115.5px;
+    margin-right: 115.5px;
+    background: #ffffffFF;;
+}
+.nev-Parent button{
+    font-size: 16px;
+    font-weight: 700;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+
+}
