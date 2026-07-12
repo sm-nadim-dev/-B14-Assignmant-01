@@ -23,7 +23,7 @@ And try to make it meaningful and relevant to the website.
 I will provide you the instruction for this section.
 
 And I will provide you the HTML and CSS code I wrote.
-<!-- Here were the HTML and CSS code I wrote, along with the instructions and necessary requirements provided in the 'Programming Hero' assignment repository. -->
+Here were the HTML and CSS code I wrote, along with the instructions and necessary requirements provided in the 'Programming Hero' assignment repository.
 And don't forget that the task is to build this landing page only using raw HTML and CSS, so don't use something that is not beginner-friendly and only use raw HTML and CSS.
 
 Don't use any library like Tailwind or Bootstrap.
