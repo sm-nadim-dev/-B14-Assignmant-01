@@ -41,18 +41,17 @@ img {
 .nev-Parent {
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 14px;
     align-items: center;
-    margin-top: 23.5px;
-    margin-bottom: 24.5px;
+    margin-top: 13px;
+    margin-bottom: 13.5px;
     margin-left: 115.5px;
     margin-right: 115.5px;
     background: #ffffffFF;
-    ;
 }
 
 .nev-Parent button {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -67,12 +66,13 @@ img {
 ul li a {
     text-decoration: none;
     color: #575757;
+    font-size: 16px;
 }
 
 /* Hero style */
 
 .hero-parent {
-    background-image: url(./assets/banner.jpg);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6000000238418579) 30%, rgba(0, 0, 0, 0) 70%), url(./assets/banner.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -98,8 +98,8 @@ ul li a {
     text-align: center;
     padding-top: 80px;
     padding: 10px;
-    
-    
+
+
 }
 
 .hero-content p {
@@ -176,6 +176,7 @@ ul li a {
     font-size: 14px;
     font-weight: 400;
 }
+
 /* Pricing */
 .price-parent .H2-top {
     text-align: center;
@@ -184,6 +185,7 @@ ul li a {
     font-weight: 700;
     padding: 12px;
 }
+
 .price-parent p {
     text-align: center;
     color: #575757FF;
@@ -191,6 +193,7 @@ ul li a {
     font-weight: 400;
     padding-bottom: 48px;
 }
+
 .price-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -199,6 +202,7 @@ ul li a {
     padding-left: 60px;
     padding-right: 60px;
 }
+
 .price-card-item {
     border: 1px solid gray;
     border-radius: 12px;
@@ -207,32 +211,39 @@ ul li a {
     padding: 40px;
     gap: 10px;
 }
+
 .card-blue {
     background: #0d1b2aFF;
     color: #FFFFFF;
     border-color: #0d1b2aFF;
 }
+
 .price-card-item h4 {
     color: #888888FF;
     font-size: 13px;
     font-weight: 600;
 }
+
 .price-card-item h2 {
     color: #0d1b2aFF;
     font-size: 44px;
     font-weight: 700;
 }
+
 .card-blue h2 {
     color: #ffffffFF;
 }
+
 .price-card-item button {
     font-size: 14px;
     font-weight: 600;
     margin-top: 20px;
 }
+
 #pro {
     color: #93c5fdFF;
 }
+
 .p-c-i-ul {
     display: flex;
     flex-direction: column;
@@ -241,10 +252,12 @@ ul li a {
     font-size: 14px;
     font-weight: 400;
 }
+
 .p-c-i-hr {
     background: #e5e7ebFF;
     margin: 10px 0;
 }
+
 /* About Section (AI generated) */
 
 .about-parent {
@@ -310,7 +323,7 @@ ul li a {
 
 .about-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
 .about-card h3 {
@@ -330,37 +343,47 @@ ul li a {
     font-size: 16px;
     line-height: 1.6;
 }
+
 /* Footer style */
 footer {
     background: #0d1b2aFF;
     color: #FFFFFF;
     padding: 40px 0 20px 0
 }
-.footer-top, .footer-bottom {
+
+.footer-top,
+.footer-bottom {
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
+
 .footer-logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .icon {
     font-size: 30px;
     cursor: pointer;
 }
-.footer-bottom p ,a{
+
+.footer-bottom p,
+a {
     color: #575757;
     font-size: 14px;
 }
+
 .footer-bottom a {
     text-decoration: none;
 }
+
 .footer-links {
     display: flex;
     gap: 25px;
 }
+
 .footer-divider {
     margin: 40px 0;
     border: 0;
